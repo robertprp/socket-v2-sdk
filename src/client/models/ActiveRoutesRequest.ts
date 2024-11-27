@@ -8,7 +8,7 @@ export interface ActiveRoutesRequest {
   /** Number of active routes to return in one API call. **/
   limit?: string;
   /** Status of the route. The route will only be marked completed if all the user txs have been completed. **/
-  routeStatus?: "PENDING" | "COMPLETED";
+  routeStatus?: "pending" | "completed";
   /** Id of sending chain **/
   fromChainId?: string;
   /** Id of destination chain. **/
